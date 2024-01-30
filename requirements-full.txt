@@ -2,7 +2,6 @@ loguru
 mypy
 rltk
 seaborn
-sentence_transformers
 SPARQLWrapper
 tqdm
 simplejson
