@@ -1,6 +1,6 @@
 import unittest
 import os
-from kgtk.generator import TripleGenerator
+from kgtk_wukunhuan.generator import TripleGenerator
 from pathlib import Path
 
 

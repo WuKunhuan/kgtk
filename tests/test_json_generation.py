@@ -1,6 +1,6 @@
 import unittest
 import os
-from kgtk.generator import JsonGenerator
+from kgtk_wukunhuan.generator import JsonGenerator
 from pathlib import Path
 
 

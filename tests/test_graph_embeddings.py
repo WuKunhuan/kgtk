@@ -2,7 +2,7 @@ import unittest
 import tempfile
 import shutil
 import pandas as pd
-from kgtk.cli_entry import cli_entry
+from kgtk_wukunhuan.cli_entry import cli_entry
 import os
 
 

@@ -1,7 +1,7 @@
 import unittest
-from kgtk.cli_entry import cli_entry
-from kgtk.cli.dummy import run
-from kgtk.exceptions import KGTKException
+from kgtk_wukunhuan.cli_entry import cli_entry
+from kgtk_wukunhuan.cli.dummy import run
+from kgtk_wukunhuan.exceptions import KGTKException
 
 
 class TestDummy(unittest.TestCase):

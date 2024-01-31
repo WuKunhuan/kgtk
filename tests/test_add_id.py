@@ -2,8 +2,8 @@ import shutil
 import unittest
 import tempfile
 import pandas as pd
-from kgtk.cli_entry import cli_entry
-from kgtk.exceptions import KGTKArgumentParseException
+from kgtk_wukunhuan.cli_entry import cli_entry
+from kgtk_wukunhuan.exceptions import KGTKArgumentParseException
 
 
 class TestKGTKAddID(unittest.TestCase):

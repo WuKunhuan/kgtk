@@ -3,9 +3,9 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from kgtk.cli_entry import cli_entry
-from kgtk.utils.convert_embeddings_format import ConvertEmbeddingsFormat
-from kgtk.exceptions import KGTKException
+from kgtk_wukunhuan.cli_entry import cli_entry
+from kgtk_wukunhuan.utils.convert_embeddings_format import ConvertEmbeddingsFormat
+from kgtk_wukunhuan.exceptions import KGTKException
 
 
 class TestConvertEmbeddingsFormat(unittest.TestCase):

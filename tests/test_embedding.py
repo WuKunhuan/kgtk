@@ -1,6 +1,6 @@
 import unittest
 import sys
-from kgtk.cli_entry import cli_entry
+from kgtk_wukunhuan.cli_entry import cli_entry
 import tempfile
 import pandas as pd
 import shutil

@@ -2,9 +2,9 @@ import shutil
 import unittest
 import tempfile
 import pandas as pd
-from kgtk.cli_entry import cli_entry, cli_entry_sequential_commands
-from kgtk.cli.filter import run
-from kgtk.exceptions import KGTKException
+from kgtk_wukunhuan.cli_entry import cli_entry, cli_entry_sequential_commands
+from kgtk_wukunhuan.cli.filter import run
+from kgtk_wukunhuan.exceptions import KGTKException
 from pathlib import Path
 
 

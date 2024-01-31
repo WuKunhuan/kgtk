@@ -1,7 +1,7 @@
 import shutil
 import tempfile
 import unittest
-from kgtk.cli_entry import cli_entry
+from kgtk_wukunhuan.cli_entry import cli_entry
 
 
 class TestVisualizeGraph(unittest.TestCase):

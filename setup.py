@@ -1,7 +1,7 @@
 from distutils.core import setup
 from setuptools import find_packages  # type: ignore
 from setuptools.command.build_py import build_py
-from kgtk import __version__
+from kgtk_wukunhuan import __version__
 import sys
 
 lite_build = False
@@ -48,12 +48,13 @@ class kgtk_build_py(build_py):
 packages = find_packages()
 
 setup(
-    name='kgtk' if not lite_build else 'kgtk-lite',
+    name='kgtk-wukunhuan',
     version=__version__,
     packages=packages,
-    url='https://github.com/usc-isi-i2/kgtk',
-    license='MIT',
-    author='ISI CKGs',
+    url='https://github.com/WuKunhuan/kgtk',
+    long_description = 'The recreated kgtk package for Wu Kunhuan. ', 
+    long_description_content_type = 'text/x-rst', 
+    author='ISI CKGs | Wu Kunhuan',
     include_package_data=True,
     install_requires=install_requires,
     dependency_links=dependency_links,
@@ -62,7 +63,4 @@ setup(
             'kgtk = kgtk.cli_entry:cli_entry',
         ],
     },
-    cmdclass={
-        'build_py': kgtk_build_py
-    }
 )

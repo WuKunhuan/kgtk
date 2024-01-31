@@ -4,7 +4,7 @@ import tempfile
 import shlex
 from   io import StringIO
 import pandas as pd
-from kgtk.cli_entry import cli_entry
+from kgtk_wukunhuan.cli_entry import cli_entry
 
 
 # TO DO:
